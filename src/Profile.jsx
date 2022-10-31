@@ -13,19 +13,19 @@ const Profile = ()=>{
 <a href="http://training.zuri.team" id="btn_zuri" >Twiitter Link </a>
 </div>
 <div className="one">
-<a href="hht://books.zuri.team" id="book" >Zuri Team</a>
+<a href="https://books.zuri.team" id="book" >Zuri Team</a>
 </div>
 <div className="one">
 <a href="http://books.zuri.team/python-for-beginners?ref_id=osazee" id="book_python">Zuri Books</a>
 </div>
 <div className="one">
-<a href="" id="pitch" >Python Books</a>
+<a href="https://background.zuri.team" id="pitch" >Python Books</a>
 </div>
 <div className="one">
-<a href="" id="book_design" >Design Books</a>
+<a href="http" id="book_design" >Design Books</a>
 </div>
 <div className="one">
-<a href="" id="book_design" >Background Check for Code </a>
+
 </div>
 </div>
 
