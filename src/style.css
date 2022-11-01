@@ -13,8 +13,16 @@ a {
     text-align: center;
 }
 
+a:hover {
+    color: red;
+}
+
 .profile {
     margin: 10px;
+}
+
+.profile h3 {
+    text-align: center;
 }
 
 img {
@@ -23,22 +31,90 @@ img {
 }
 
 .profile img {
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 .section_one {}
 
 .one {
     width: 1200px;
-    height: 30px;
     background: rgb(215, 214, 224);
     text-align: center;
     margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 13px;
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
 }
 
 .two {
-    padding: 5px 100px;
-    background-color: aqua;
+    width: 1200px;
+    background: rgb(215, 214, 224);
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 13px;
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
+}
+
+.three {
+    width: 1200px;
+    background: rgb(215, 214, 224);
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 13px;
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
+}
+
+.four {
+    width: 1200px;
+    background: rgb(215, 214, 224);
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 13px;
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
+}
+
+.five {
+    width: 1200px;
+    background: rgb(215, 214, 224);
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 13px;
+    -webkit-transition: width 2s;
+    /* Safari */
+    transition: width 2s;
 }
 
 #btn_zuri {}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+    .one {
+        width: 400px;
+    }
+    .two {
+        width: 400px;
+    }
+    .three {
+        width: 400px;
+    }
+    .four {
+        width: 400px;
+    }
+    .five {
+        width: 400px;
+    }
+}
