@@ -1,5 +1,9 @@
+.main {
+    margin: 0 auto;
+    width: 1100px;
+}
+
 .container {
-    background: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,10 +11,10 @@
 }
 
 a {
-    color: #000;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+    color: #000;
 }
 
 .moveRight {
@@ -18,10 +22,6 @@ a {
     right: 40px;
     top: 40px;
     border-radius: 2px solid rgb(4, 4, 37);
-}
-
-a:hover {
-    color: red;
 }
 
 .profile {
@@ -41,69 +41,19 @@ img {
     border-radius: 40%;
 }
 
-.section_one {}
-
 .one {
-    width: 1200px;
+    width: 700px;
     background: rgb(215, 214, 224);
     text-align: center;
     margin-bottom: 10px;
     border-radius: 7px;
     padding: 13px;
-    -webkit-transition: width 2s;
-    /* Safari */
-    transition: width 2s;
+    transition: width 1s;
 }
 
-.two {
-    width: 1200px;
-    background: rgb(215, 214, 224);
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 7px;
-    padding: 13px;
-    -webkit-transition: width 2s;
-    /* Safari */
-    transition: width 2s;
+.one:hover {
+    background: rgb(172, 172, 184);
 }
-
-.three {
-    width: 1200px;
-    background: rgb(215, 214, 224);
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 7px;
-    padding: 13px;
-    -webkit-transition: width 2s;
-    /* Safari */
-    transition: width 2s;
-}
-
-.four {
-    width: 1200px;
-    background: rgb(215, 214, 224);
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 7px;
-    padding: 13px;
-    -webkit-transition: width 2s;
-    /* Safari */
-    transition: width 2s;
-}
-
-.five {
-    width: 1200px;
-    background: rgb(215, 214, 224);
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 7px;
-    padding: 13px;
-    -webkit-transition: width 2s;
-    /* Safari */
-    transition: width 2s;
-}
-
-#btn_zuri {}
 
 .icons {
     display: flex;
@@ -116,37 +66,28 @@ img {
 .footer {
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 50px;
 }
 
 .footer img {
-    height: 30px;
-    width: 70px;
+    height: 40px;
+    width: 80px;
 }
 
-@media only screen and (max-width: 800px) {
-    .container {
+@media only screen and (max-width: 640px) {
+    .main {
         width: 100%;
     }
     .one {
-        width: 400px;
-    }
-    .two {
-        width: 400px;
-    }
-    .three {
-        width: 400px;
-    }
-    .four {
-        width: 400px;
-    }
-    .five {
-        width: 400px;
+        width: 260px;
     }
     .footer {
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+    .footer span {
+        margin: 10px;
     }
 }
